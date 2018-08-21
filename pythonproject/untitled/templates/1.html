@@ -1,0 +1,39 @@
+<p style="color:white;background-color:black;">
+user cwyj;
+worker_processes 2;
+
+events {
+        use epoll;
+        worker_connections 2048;
+}
+
+http {
+        include mime.types;
+        gzip on;
+
+        upstream backend {
+                server 192.168.10.1:80;
+                server 192.168.10.2:8080;
+
+        }
+
+        server {
+                listen 80;
+                server_name cwyj.com;
+
+                location / {
+                        index index.html;
+                        proxy_pass http://backend;
+                }
+        }
+        server {
+                listen 60;
+                server_name 10.10.99.82;
+                index index.html;
+                root /root/conf/
+                location / {
+                        index index.html
+                }
+        }
+}
+</p>

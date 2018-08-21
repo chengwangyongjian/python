@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>pass_work</title>
+</head>
+<body>
+	<p style="color:black">{{ username }} {{ t }}</p>
+	{% for (h,s) in d.items() %}
+	<p style="color:red">{{ h }} {{ s }}</p>
+	{% endfor %}
+	<form action="/pass_work" method="post">
+		<legend>info:</legend>
+		<p><input name="host" placeholder="hostname"><input name='alarm_type' placeholder="alarm_type"><input name="deal" placeholder="operation"><button type="submit">submit</button></p>
+  </form>
+</body>
+</html>
