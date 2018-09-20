@@ -1,0 +1,12 @@
+.error_msg {
+    color: red;
+    font-size: 13px;
+}
+
+.btn-primary, .btn-primary.focus, .btn-primary:focus .btn-primary.focus:hover, .btn-primary:active:hover, .btn-primary:focus:active, .btn-primary:focus:hover, .btn-primary:hover, .open>.btn-primary.dropdown-toggle, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:active, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
+    background-color: #428BCA!important;
+}
+
+.btn-default, .btn-default.focus, .btn-default:focus .btn-default.focus:hover, .btn-default:active:hover, .btn-default:focus:active, .btn-default:focus:hover, .btn-default:hover, .open>.btn-default.dropdown-toggle, .open>.btn-default.dropdown-toggle.focus, .open>.btn-default.dropdown-toggle:active, .open>.btn-default.dropdown-toggle:focus, .open>.btn-default.dropdown-toggle:hover {
+    background-color: #ABBAC3!important;
+}
