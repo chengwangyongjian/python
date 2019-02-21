@@ -5,9 +5,9 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.multipart import MIMEBase
 
 '''smtp_host="smtp.163.com"
-from_addr="m18992868907@163.com"
-password="Qq794277368"
-to_addr="chengwangyongjian@xunlei.com"
+from_addr=""
+password=""
+to_addr=""
 '''
 smtp_host="mail1.xunlei.com"
 from_addr=""
