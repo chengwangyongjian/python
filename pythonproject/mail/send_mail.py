@@ -10,9 +10,9 @@ password="Qq794277368"
 to_addr="chengwangyongjian@xunlei.com"
 '''
 smtp_host="mail1.xunlei.com"
-from_addr="chengwangyongjian@xunlei.com"
-password="CHENG794277368"
-to_addr="liyongzhe@xunlei.com"
+from_addr=""
+password=""
+to_addr=""
 
 f=open('C:\Users\\admin\Desktop\\1.png','rb')
 msgimg=MIMEImage(f.read())
